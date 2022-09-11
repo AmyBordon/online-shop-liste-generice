@@ -31,6 +31,7 @@ public:
 		cout << "+ Apasati tasta 4 pentru a modifica stocul unui produs              +" << endl;
 		cout << "+ Apasati tasta 5 pentru a vedea produsele care nu mai sunt in stoc +" << endl;
 		cout << "+ Apasati tasta 6 pentru a vedea toate produsele                    +" << endl;
+		cout << "+ Apasati tasta 7 pentru a vedea produsele care sunt in stoc        +" << endl;
 		cout << "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << endl;
 	}
 
@@ -71,6 +72,11 @@ public:
 
 				case 6:
 					controlProducts.afisare();
+					break;
+
+				case 7:
+					controlProducts.afisareProduseStoc();
+					break;
 
 				default:
 					cout << "Nu ati introdus o tasta valida" << endl;
@@ -143,5 +149,7 @@ public:
 		controlProducts.save();
 
 	}
+
+	
 
 };

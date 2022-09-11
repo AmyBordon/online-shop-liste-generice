@@ -34,7 +34,7 @@ public:
 				logareClient();
 				break;
 			case 2:
-				logareAdmin();
+				admin.play();
 				break;
 			case 3:
 				intrgistrare();
@@ -65,16 +65,7 @@ public:
 	}
 
 
-	void logareAdmin() {
-
-		string parola;
-		cout << "Introduceti parola" << endl;
-		cin >> parola;
-		if (admin.getParola() == parola)
-			admin.play();
-		else
-			cout << "Parola incorecta" << endl;
-	}
+	
 
 	void intrgistrare() {
 		string nume, prenume, parola, email;

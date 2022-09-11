@@ -158,4 +158,16 @@ public:
 			it = it->next;
 		}
 	}
+
+	void afisareProduseStoc() {
+
+		Node<Product>* it = l.getHead();
+
+		while (it != NULL) {
+
+			if (it->data.getStock())
+				cout << it->data.descriere();
+			it = it->next;
+		}
+	}
 };
