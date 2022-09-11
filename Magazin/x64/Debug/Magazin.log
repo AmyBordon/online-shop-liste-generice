@@ -1,0 +1,10 @@
+﻿  Magazin.cpp
+C:\Users\Amy\Documents\c++\Magazin\Magazin\customer.h(69,23): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlCustomers.h(69): warning C4715: 'ControlCustomer::findByEmailAndParola': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlProduct.h(132): warning C4715: 'ControlProduct::findPozById': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlProduct.h(143): warning C4715: 'ControlProduct::findProductById': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlProduct.h(61): warning C4715: 'ControlProduct::findProductByNume': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlProduct.h(74): warning C4715: 'ControlProduct::findNumeById': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlOrderDetails.h(121): warning C4715: 'ControlOrderDetails::findByProductAndOrderId': not all control paths return a value
+C:\Users\Amy\Documents\c++\Magazin\Magazin\ControlOrderDetails.h(101): warning C4715: 'ControlOrderDetails::findPozByProductAndOrderId': not all control paths return a value
+  Magazin.vcxproj -> C:\Users\Amy\Documents\c++\Magazin\x64\Debug\Magazin.exe

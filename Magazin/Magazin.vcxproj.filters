@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\modele">
+      <UniqueIdentifier>{fac296bd-ac86-4685-9bba-aa36624c7a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controllere">
+      <UniqueIdentifier>{3b585b26-ca1e-4434-afdd-65f1137b3aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collections">
+      <UniqueIdentifier>{ee7e9cfc-4026-414c-8e73-52dc58b789a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\view-uri">
+      <UniqueIdentifier>{baa466fe-8e7b-4544-9d0f-157c844ad8d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Magazin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="product.h">
+      <Filter>Header Files\modele</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlProduct.h">
+      <Filter>Header Files\controllere</Filter>
+    </ClInclude>
+    <ClInclude Include="orderDetails.h">
+      <Filter>Header Files\modele</Filter>
+    </ClInclude>
+    <ClInclude Include="order.h">
+      <Filter>Header Files\modele</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlOrderDetails.h">
+      <Filter>Header Files\controllere</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlOrders.h">
+      <Filter>Header Files\controllere</Filter>
+    </ClInclude>
+    <ClInclude Include="viewCustomer.h">
+      <Filter>Header Files\view-uri</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.h">
+      <Filter>Header Files\modele</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlCustomers.h">
+      <Filter>Header Files\controllere</Filter>
+    </ClInclude>
+    <ClInclude Include="viewAdmin.h">
+      <Filter>Header Files\view-uri</Filter>
+    </ClInclude>
+    <ClInclude Include="viewLogare.h">
+      <Filter>Header Files\view-uri</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="products.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ordersDetails.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="orders.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="customers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
